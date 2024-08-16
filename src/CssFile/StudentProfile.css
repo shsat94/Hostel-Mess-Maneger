@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.parentbox{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* img{
+    height:3rem;
+    width: 2rem;
+} */
+/* .image{
+    height:3rem;
+    width: 2rem;
+    background-color: black;
+} */

@@ -6,7 +6,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#B4C3A7' }}>
                 <div className="container-fluid">
                     
-                    <button class="btn"><a className="navbar-brand" href="/"><span class="material-symbols-outlined">
+                    <button className="btn"><a className="navbar-brand" href="/"><span className="material-symbols-outlined">
                         home
                     </span></a></button>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <div className="d-flex">
-                            <button class="btn"><span class="material-symbols-outlined">person
+                            <button className="btn"><span className="material-symbols-outlined">person
                             </span></button>
                         </div>
                     </div>
