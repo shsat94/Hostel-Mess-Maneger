@@ -1,14 +1,14 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 export default function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#B4C3A7' }}>
                 <div className="container-fluid">
                     
-                    <button className="btn"><a className="navbar-brand" href="/"><span className="material-symbols-outlined">
+                    <Link className="navbar-brand" to="/home"><button className="btn"><span className="material-symbols-outlined">
                         home
-                    </span></a></button>
+                    </span></button></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,8 +22,10 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <div className="d-flex">
-                            <button className="btn"><span className="material-symbols-outlined">person
-                            </span></button>
+                            {/* */}
+                            <Link to="/studentprofile"> <button className="btn">
+                                <span className="material-symbols-outlined">person
+                            </span></button></Link>
                         </div>
                     </div>
                 </div>

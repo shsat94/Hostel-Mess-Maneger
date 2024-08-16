@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CssFile/StudentProfile.css';
-import './sampleImage.jpg';
+import image from './sampleImage.jpg';
 
 export default function StudentProfile() {
     
@@ -8,71 +8,72 @@ export default function StudentProfile() {
         <>
             <div className="parentbox">
                 <div className="image">
-        <img src='./sampleImage.jpg' alt="Not Avaliable" />
+        <img src={image} alt="Not Avaliable" />
                 </div>
+                <hr />
                 <div className="box">
                     <div className="Data">
                         <div className="StudentData">
-                            <p>Student Name</p>
+                            <p>Student Name :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Student Roll No </p>
+                            <p>Student Roll No :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Course</p>
+                            <p>Course :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Branch</p>
+                            <p>Branch :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Section</p>
+                            <p>Section :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Semester,Year</p>
+                            <p>Semester,Year :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Mobile No</p>
+                            <p>Mobile No :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Room no</p>
+                            <p>Room no :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Hostel Name</p>
+                            <p>Hostel Name :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Email</p>
+                            <p>Email :</p>
                         </div>
                     </div>
                     <div className="Data">
                         <div className="StudentData">
-                            <p>Father's Name</p>
+                            <p>Father's Name :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Mother's Name</p>
+                            <p>Mother's Name :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Gender</p>
+                            <p>Gender :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Date of Birth</p>
+                            <p>Date of Birth :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Aadhar No</p>
+                            <p>Aadhar No :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Father's Mobile No</p>
+                            <p>Father's Mobile No :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Mother's Mobile No</p>
+                            <p>Mother's Mobile No :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Address</p>
+                            <p>Address :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Category</p>
+                            <p>Category :</p>
                         </div>
                         <div className="StudentData">
-                            <p>Religion</p>
+                            <p>Religion :</p>
                         </div>
                     </div>
                 </div>

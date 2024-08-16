@@ -1,14 +1,12 @@
 import './App.css';
-import StudentHomePage from './components/StudentHomePage';
-import StudentProfile from './components/StudentProfile';
+import Student from './components/Student';
 
 function App() {
-  document.body.style.backgroundColor='#DBCFB0';
+  document.body.style.backgroundColor = '#DBCFB0';
   return (
-     
+
     <>
-    <StudentHomePage/>
-    <StudentProfile/>
+      <Student />
     </>
   );
 }
