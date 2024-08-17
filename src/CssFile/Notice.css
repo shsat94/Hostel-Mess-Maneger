@@ -1,0 +1,19 @@
+.noticeSection{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    margin:5rem;
+    border:1px solid black;
+    padding:3rem;
+    background-color: #CDCCAF;
+    border-radius:2rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem ;
+}
+
+.notices{
+    margin-block: 0.5rem;
+    background-color: #BFC8AD;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #282c57;
+    padding-left: 1rem;
+}

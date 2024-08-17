@@ -1,0 +1,14 @@
+.studentPresent{
+    display: flex;
+    justify-content: center;
+    gap :4rem;
+    margin: 4rem;
+}
+.student{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #A8BEA1;
+    box-shadow: 0.2rem 0.2rem 1rem black;
+}

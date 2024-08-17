@@ -1,12 +1,12 @@
 import './App.css';
-import Student from './components/Student';
+import Admin from './components/admin/Admin';
 
 function App() {
   document.body.style.backgroundColor = '#DBCFB0';
   return (
 
     <>
-      <Student />
+      <Admin/>
     </>
   );
 }
